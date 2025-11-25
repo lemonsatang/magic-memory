@@ -14,7 +14,7 @@ React로 만든 카드 뒤집기 메모리 게임입니다. 두 장씩 카드를
 
 ## Getting Started
 
--브라우저에서 `magicmemory-lemon.netlify.app` 접속 후 게임을 플레이합니다.
+-브라우저에서 [게임이동하기](`magicmemory-lemon.netlify.app`) 접속 후 게임을 플레이합니다.
 
 ## Folder Structure (예시)
 
