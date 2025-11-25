@@ -1,16 +1,28 @@
-# React + Vite
+# Magic Match
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React로 만든 카드 뒤집기 메모리 게임입니다. 두 장씩 카드를 뒤집어 같은 아이콘을 맞추는 게임입니다.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 같은 카드 두 장을 맞추면 고정되고, 다른 카드면 자동으로 다시 뒤집힙니다.
+- 현재 시도 횟수(턴 수)를 화면 하단에서 확인할 수 있습니다.
+- `New Game` 버튼으로 카드 섞기 및 게임 초기화가 가능합니다.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Hooks (`useState`, `useEffect`)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-브라우저에서 `magicmemory-lemon.netlify.app` 접속 후 게임을 플레이합니다.
+
+## Folder Structure (예시)
+
+- `src/components` : 카드 컴포넌트, 게임 보드 컴포넌트
+- `src/App.jsx` : 게임 상태 관리 및 전체 레이아웃
+<br />
+<br />
+<br />
+
+## 구현 화면
+![alt text](image.png)
